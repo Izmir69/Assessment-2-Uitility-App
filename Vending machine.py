@@ -28,14 +28,14 @@ drinks_menu = [
      },
      
               { 
-    'itemname' : '7UP',
+    'itemname' : 'Seven Up',
     'itemno' : 5,
     'price' : 3,
     'qty' : 1,
      },
      
          { 
-    'itemname' : 'Sparkling Water',
+    'itemname' : 'Mountain Dew',
     'itemno' : 6,
     'price' : 5,
     'qty' : 4,
@@ -69,14 +69,14 @@ drinks_menu = [
     'qty' : 9,
      },
          { 
-    'itemname' : 'Belvita Biscuits',
+    'itemname' : 'OREO Biscuits',
     'itemno' : 11,
     'price' : 3,
     'qty' : 4,
      },
 
          { 
-    'itemname' : 'Pringles Chips Salt',
+    'itemname' : 'Pringles Chips BBQ',
     'itemno' : 12,
     'price' : 3,
     'qty' : 2,
@@ -111,7 +111,7 @@ drinks_menu = [
      },
 
          { 
-    'itemname' : 'Oreo',
+    'itemname' : 'Snickers',
     'itemno' : 17,
     'price' : 2,
     'qty' : 2,
@@ -148,8 +148,8 @@ def drinks():
     "02 Coca-Cola" : "3 AED",
     "03 Fanta" : "3 AED",
     "04 Sprite" : "3 AED",
-    "05 7UP" : "3 AED",
-    "06 Sparkling Water" : "5 AED",
+    "05 Seven Up" : "3 AED",
+    "06 Mountain Dew" : "5 AED",
     "07 Water" : "1 AED",
     "08 Chocolate Milk" : "3 AED",
     "09 Strawberry Milk" : "3 AED",
@@ -162,13 +162,13 @@ def drinks():
 def snacks():
   print("=================SNACKS================")
   snacks_items = {
-    "11 Belvita Biscuit" : "3 AED", 
-    "12 Pringles Salt" : "3 AED",
+    "11 OREO Biscuit" : "3 AED", 
+    "12 Pringles BBQ" : "3 AED",
     "13 Pringles Cheese" : "3 AED",
     "14 Doritos Spicy" : "3 AED",
     "15 Lotte Choco-pie" : "5 AED",
     "16 KitKat" : "2 AED",
-    "17 Oreo" : "2 AED",
+    "17 Snickers" : "2 AED",
     "18 Lotus Biscoff" : "2 AED",
     "19 Galaxy Bar Chocolate" : "3 AED",
     "20 Galaxy Bar Hazelnut" : "6 AED",
